@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		529F5C9B1B809CCE00191D4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5C9A1B809CCE00191D4C /* AppDelegate.swift */; };
+		529F5C9D1B809CCE00191D4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5C9C1B809CCE00191D4C /* ViewController.swift */; };
+		529F5CA01B809CCE00191D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F5C9E1B809CCE00191D4C /* Main.storyboard */; };
+		529F5CA21B809CCE00191D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529F5CA11B809CCE00191D4C /* Images.xcassets */; };
+		529F5CA51B809CCE00191D4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529F5CA31B809CCE00191D4C /* LaunchScreen.xib */; };
+		529F5CB11B809CCE00191D4C /* DecoCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F5CB01B809CCE00191D4C /* DecoCameraTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		529F5CAB1B809CCE00191D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 529F5C8D1B809CCE00191D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 529F5C941B809CCE00191D4C;
+			remoteInfo = DecoCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		529F5C951B809CCE00191D4C /* DecoCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecoCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		529F5C991B809CCE00191D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529F5C9A1B809CCE00191D4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		529F5C9C1B809CCE00191D4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		529F5C9F1B809CCE00191D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529F5CA11B809CCE00191D4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		529F5CA41B809CCE00191D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		529F5CAA1B809CCE00191D4C /* DecoCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		529F5CAF1B809CCE00191D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529F5CB01B809CCE00191D4C /* DecoCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoCameraTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529F5C921B809CCE00191D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529F5CA71B809CCE00191D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		529F5C8C1B809CCE00191D4C = {
+			isa = PBXGroup;
+			children = (
+				529F5C971B809CCE00191D4C /* DecoCamera */,
+				529F5CAD1B809CCE00191D4C /* DecoCameraTests */,
+				529F5C961B809CCE00191D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		529F5C961B809CCE00191D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529F5C951B809CCE00191D4C /* DecoCamera.app */,
+				529F5CAA1B809CCE00191D4C /* DecoCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529F5C971B809CCE00191D4C /* DecoCamera */ = {
+			isa = PBXGroup;
+			children = (
+				529F5C9A1B809CCE00191D4C /* AppDelegate.swift */,
+				529F5C9C1B809CCE00191D4C /* ViewController.swift */,
+				529F5C9E1B809CCE00191D4C /* Main.storyboard */,
+				529F5CA11B809CCE00191D4C /* Images.xcassets */,
+				529F5CA31B809CCE00191D4C /* LaunchScreen.xib */,
+				529F5C981B809CCE00191D4C /* Supporting Files */,
+			);
+			path = DecoCamera;
+			sourceTree = "<group>";
+		};
+		529F5C981B809CCE00191D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				529F5C991B809CCE00191D4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		529F5CAD1B809CCE00191D4C /* DecoCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				529F5CB01B809CCE00191D4C /* DecoCameraTests.swift */,
+				529F5CAE1B809CCE00191D4C /* Supporting Files */,
+			);
+			path = DecoCameraTests;
+			sourceTree = "<group>";
+		};
+		529F5CAE1B809CCE00191D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				529F5CAF1B809CCE00191D4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529F5C941B809CCE00191D4C /* DecoCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529F5CB41B809CCE00191D4C /* Build configuration list for PBXNativeTarget "DecoCamera" */;
+			buildPhases = (
+				529F5C911B809CCE00191D4C /* Sources */,
+				529F5C921B809CCE00191D4C /* Frameworks */,
+				529F5C931B809CCE00191D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecoCamera;
+			productName = DecoCamera;
+			productReference = 529F5C951B809CCE00191D4C /* DecoCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		529F5CA91B809CCE00191D4C /* DecoCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529F5CB71B809CCE00191D4C /* Build configuration list for PBXNativeTarget "DecoCameraTests" */;
+			buildPhases = (
+				529F5CA61B809CCE00191D4C /* Sources */,
+				529F5CA71B809CCE00191D4C /* Frameworks */,
+				529F5CA81B809CCE00191D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529F5CAC1B809CCE00191D4C /* PBXTargetDependency */,
+			);
+			name = DecoCameraTests;
+			productName = DecoCameraTests;
+			productReference = 529F5CAA1B809CCE00191D4C /* DecoCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529F5C8D1B809CCE00191D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = AsukaKadowaki;
+				TargetAttributes = {
+					529F5C941B809CCE00191D4C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					529F5CA91B809CCE00191D4C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 529F5C941B809CCE00191D4C;
+					};
+				};
+			};
+			buildConfigurationList = 529F5C901B809CCE00191D4C /* Build configuration list for PBXProject "DecoCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529F5C8C1B809CCE00191D4C;
+			productRefGroup = 529F5C961B809CCE00191D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529F5C941B809CCE00191D4C /* DecoCamera */,
+				529F5CA91B809CCE00191D4C /* DecoCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		529F5C931B809CCE00191D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529F5CA01B809CCE00191D4C /* Main.storyboard in Resources */,
+				529F5CA51B809CCE00191D4C /* LaunchScreen.xib in Resources */,
+				529F5CA21B809CCE00191D4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529F5CA81B809CCE00191D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529F5C911B809CCE00191D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529F5C9D1B809CCE00191D4C /* ViewController.swift in Sources */,
+				529F5C9B1B809CCE00191D4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529F5CA61B809CCE00191D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529F5CB11B809CCE00191D4C /* DecoCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		529F5CAC1B809CCE00191D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 529F5C941B809CCE00191D4C /* DecoCamera */;
+			targetProxy = 529F5CAB1B809CCE00191D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		529F5C9E1B809CCE00191D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529F5C9F1B809CCE00191D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		529F5CA31B809CCE00191D4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529F5CA41B809CCE00191D4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		529F5CB21B809CCE00191D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		529F5CB31B809CCE00191D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		529F5CB51B809CCE00191D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DecoCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		529F5CB61B809CCE00191D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DecoCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		529F5CB81B809CCE00191D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DecoCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecoCamera.app/DecoCamera";
+			};
+			name = Debug;
+		};
+		529F5CB91B809CCE00191D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DecoCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecoCamera.app/DecoCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529F5C901B809CCE00191D4C /* Build configuration list for PBXProject "DecoCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529F5CB21B809CCE00191D4C /* Debug */,
+				529F5CB31B809CCE00191D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529F5CB41B809CCE00191D4C /* Build configuration list for PBXNativeTarget "DecoCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529F5CB51B809CCE00191D4C /* Debug */,
+				529F5CB61B809CCE00191D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		529F5CB71B809CCE00191D4C /* Build configuration list for PBXNativeTarget "DecoCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529F5CB81B809CCE00191D4C /* Debug */,
+				529F5CB91B809CCE00191D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529F5C8D1B809CCE00191D4C /* Project object */;
+}
