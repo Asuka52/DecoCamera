@@ -1,5 +1,1 @@
-# DecoCamera
-
-StampCamera
-
-
+カメラで撮った写真にスタンプを貼って加工するアプリ
